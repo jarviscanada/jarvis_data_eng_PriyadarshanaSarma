@@ -18,7 +18,7 @@ hostname=$(hostname -f)
 #save memory information to a variable
 meminfo=`cat /proc/meminfo`
 
-#save number of CPU to a variable
+#save CPU information to a variable
 lscpu_out=`lscpu`
 
 #getting the hardware specifications
