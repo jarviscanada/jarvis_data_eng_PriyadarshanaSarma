@@ -26,7 +26,7 @@ database for monitoring and analysis by the the Linux Cluster Administration tea
 The bash script psql_docker.sh create and start a docker container with PostgreSQL database running in it. Then, the ddl.sql script is executed on the host_agent database against the psql instance to create the two tables - host_info and host_usage. Hereafter, a bash script, host_info.sh script will be executed to collect the hardware details of the machine, where it is run. This script will be run everytime when the host starts up. Another bash script, host_usage.sh script will be executed to collect the current host usage (CPU and Memory) of the machine. This script will be executed by crontab every minute. 
 
 ## Architecture
-![Host usage information architecture](./assets/my_image.jpg)
+![Host usage information architecture](./assets/Linux_SQL_Architecture.drawio.png)
 
 ## Scripts
 - psql_docker.sh
