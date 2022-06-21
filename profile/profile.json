@@ -1,0 +1,121 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Graduated with Honours",
+        "Dean's List (Fall 2020, Winter 2021, Fall 2021, Winter 2022)",
+        "Percentage: 90.1"
+      ],
+      "degree": "Ontario College Graduate Certificate",
+      "department": "Information Technology Solutions",
+      "duration": "2020-2022",
+      "school_name": "Humber College"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Bachelor of Engineering",
+      "department": "Electronics and Communication",
+      "duration": "2011-2015",
+      "school_name": "Visvesvaraya Technological University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_PriyadarshanaSarma",
+  "highlighted_projects": [
+    {
+      "description": "Built a 3-tier application single handedly to manage and reserve meeting rooms using SOAP and JAVA webMethods. Created CRUD operations for users to create and handle booking as well as admins to manage booking rooms.",
+      "name": "Meeting room reservation system"
+    },
+    {
+      "description": "Developed an e-commerce website using MERN stack in a team of 4. I have created Gift card, Customer profile and Contact us web pages in the website. I have also designed and developed the APIs and data model for the features.",
+      "name": "E-Commerce website for kids wear"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Developed a Linux Cluster Monitoring Agent that will help to record the hardware specification and monitor the resource usages in a node. The data will be stored in a centralized PostgreSQL database for monitoring and analysis by the the Linux Cluster Administration team. The technologies used in this project were docker, git, PostgreSQL database, bash scripts, Linux[CentOS 7], Google Cloud Platform.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": [
+        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "",
+      "git_url": "/springboot",
+      "name": "Springboot App"
+    },
+    {
+      "description": "",
+      "git_url": "/python_data_anlytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "Priyadarshana Sarma",
+  "others": [
+    {
+      "bullets": [
+        "Swimming"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Worked as a Software Developer in an agile/scrum environment, where I am able to learn and utilise my various skillsets to implement in projects like Linux Cluster Monitoring Agent",
+      "duration": "2022-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "TPF Software India Pvt Ltd",
+      "description": "Worked as a Software Engineer and performing various tasks in SDLC such as requirements gathering, component designing, software implementing, and testing solutions.",
+      "duration": "2015-2018",
+      "title": "Software Engineer"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "React",
+      "HTML/CSS",
+      "JavaScript",
+      "NoSQL",
+      "Express"
+    ],
+    "familiar": [
+      "Spring Boot",
+      "Microservices",
+      "Android Development",
+      "REST API",
+      "Python"
+    ],
+    "proficient": [
+      "Java",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "Recently, I graduated from Humber College with a degree in Information Technology Solutions. I had also worked as a Software Engineer at the  TPF Software India Pvt Ltd, performing various tasks in SDLC such as requirements gathering, component designing, software implementing, and testing solutions."
+}
