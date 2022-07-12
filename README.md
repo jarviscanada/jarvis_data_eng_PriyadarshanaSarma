@@ -1,6 +1,6 @@
 # Priyadarshana Sarma . Jarvis Consulting
 
-Recently, I graduated from Humber College with a degree in Information Technology Solutions. I had also worked as a Software Engineer at the  TPF Software India Pvt Ltd, performing various tasks in SDLC such as requirements gathering, component designing, software implementing, and testing solutions.
+I am a recent graduate from Humber College with a degree in Information Technology Solutions, concentrated in Java, REST APIs, and SQL. I have also worked as a Software Engineer at TPF Software India Pvt Ltd, performing various tasks in SDLC such as requirements gathering, component designing (APIs, data model), software implementation (Java and SQL), and testing implemented solutions. Currently, I am a Software Developer at Jarvis Consulting Group, where I have worked on multiple projects in Java, Linux, SQL, and Docker. Throughout my career history, I've worked in numerous fast-paced and collaborative groups, where to be successful, I always had to learn new things, and also always be dependable to build trust with various stakeholders. I like to follow a loop of improving my skills, being more effective, and contributing more value to my role. I look forward to continuing my journey as a software developer.
 
 ## Skills
 
@@ -8,43 +8,27 @@ Recently, I graduated from Humber College with a degree in Information Technolog
 
 **Competent:** React, HTML/CSS, JavaScript, NoSQL, Express
 
-**Familiar:** Spring Boot, Microservices, Android Development, REST API, Python
+**Familiar:** Spring Boot, Microservices, Android Development, REST API, Docker, Python
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_PriyadarshanaSarma](https://github.com/jarviscanada/jarvis_data_eng_PriyadarshanaSarma)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PriyadarshanaSarma/tree/master/linux_sql)]: Developed a Linux Cluster Monitoring Agent that will help to record the hardware specification and monitor the resource usages in a node. The data will be stored in a centralized PostgreSQL database for monitoring and analysis by the the Linux Cluster Administration team. The technologies used in this project were docker, git, PostgreSQL database, bash scripts, Linux[CentOS 7], Google Cloud Platform.
-
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PriyadarshanaSarma/tree/master/core_java)]:
-      
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PriyadarshanaSarma/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PriyadarshanaSarma/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PriyadarshanaSarma/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PriyadarshanaSarma/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PriyadarshanaSarma/tree/master/cloud_devops)]: Not Started
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PriyadarshanaSarma/tree/master/linux_sql)]: Developed a Linux Cluster Monitoring Agent using bash scripts that will help to record the hardware specification and monitor the resource usage in a node. The data will be stored in a centralized PostgreSQL database provisioned using docker for monitoring and analysis by the Linux Cluster Administration team. The application was developed and tested on CentOS 7 virtual machine, running on a Google Cloud Platform.
 
 
 ## Highlighted Projects
-**Meeting room reservation system**: Built a 3-tier application single handedly to manage and reserve meeting rooms using SOAP and JAVA webMethods. Created CRUD operations for users to create and handle booking as well as admins to manage booking rooms.
+**Meeting room reservation system**: Built the backend system for a meeting room reservation system which used SOAP and Java Web Methods as the communication protocol. The backend was developed with a 3 tiered architecture and supported all necessary CRUD operations for users to book and manage reservations, and admins to manage rooms.
 
-**E-Commerce website for kids wear**: Developed an e-commerce website using MERN stack in a team of 4. I have created Gift card, Customer profile and Contact us web pages in the website. I have also designed and developed the APIs and data model for the features.
+**E-Commerce website for kids wear**: Developed “Gift Card”, “Customer Profile”, and “Contact Us” pages for an eCommerce application using MERN stack architecture. Performed necessary API design and data model for the backend as well as integrations of “Customer Profile” with other pages.
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2022-present)**: Worked as a Software Developer in an agile/scrum environment, where I am able to learn and utilise my various skillsets to implement in projects like Linux Cluster Monitoring Agent
+**Software Developer, Jarvis (2022-present)**: Worked as a Software Developer, implementing multiple projects using Java, SQL, bash scripts, and docker as well as ran scrum and participated in all agile ceremonies like a sprint retrospective, and planning.
 
-**Software Engineer, TPF Software India Pvt Ltd (2015-2018)**: Worked as a Software Engineer and performing various tasks in SDLC such as requirements gathering, component designing, software implementing, and testing solutions.
+**Software Engineer, TPF Software India Pvt Ltd (2015-2018)**: Worked as a Software Engineer and performed various tasks in SDLC such as requirements gathering, component designing including REST APIs, data models, software implementation using Java, SQL, and testing implemented solutions using JUnit.
 
 
 ## Education
@@ -58,3 +42,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_Priyadarsh
 
 ## Miscellaneous
 - Swimming
+- Board Games
