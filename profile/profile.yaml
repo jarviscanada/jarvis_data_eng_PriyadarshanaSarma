@@ -5,7 +5,8 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_Priyadarsh
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Recently, I graduated from Humber College with a degree in Information Technology Solutions. I had also worked as a Software Engineer at the  TPF Software India Pvt Ltd, performing various tasks in SDLC such as requirements gathering, component designing, software implementing, and testing solutions.   
+summary: I am a recent graduate from Humber College with a degree in Information Technology Solutions, concentrated in Java, REST APIs, and SQL. I have also worked as a Software Engineer at TPF Software India Pvt Ltd, performing various tasks in SDLC such as requirements gathering, component designing (APIs, data model), software implementation (Java and SQL), and testing implemented solutions. Currently, I am a Software Developer at Jarvis Consulting Group, where I have worked on multiple projects in Java, Linux, SQL, and Docker. Throughout my career history, I've worked in numerous fast-paced and collaborative groups, where to be successful, I always had to learn new things, and also always be dependable to build trust with various stakeholders. I like to follow a loop of improving my skills, being more effective, and contributing more value to my role. I look forward to continuing my journey as a software developer.
+   
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
@@ -29,6 +30,7 @@ skills:
     - Microservices
     - Android Development
     - REST API
+    - Docker
     - Python
 
 # List of Jarvis projects
@@ -37,28 +39,19 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Developed a Linux Cluster Monitoring Agent that will help to record the hardware specification and monitor the resource usages in a node. The data will be stored in a centralized PostgreSQL database for monitoring and analysis by the the Linux Cluster Administration team. The technologies used in this project were docker, git, PostgreSQL database, bash scripts, Linux[CentOS 7], Google Cloud Platform.
-  - name: "Core Java Apps"
-    git_url: "/core_java"
-    description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: ""
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    description: ""
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
+    description: Developed a Linux Cluster Monitoring Agent using bash scripts that will help to record the hardware specification and monitor the resource usage in a node. The data will be stored in a centralized PostgreSQL database provisioned using docker for monitoring and analysis by the Linux Cluster Administration team. The application was developed and tested on CentOS 7 virtual machine, running on a Google Cloud Platform.
+  # - name: "Core Java Apps"
+  #  git_url: "/core_java"
+  #  description:
+  #    - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+  #    - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+  #    - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+  # - name: "Springboot App"
+  #  git_url: "/springboot"
+  #  description: ""
+  # - name: "Cloud/DevOps"
+  #  git_url: "/cloud_devops"
+  #  description: ""
 
 # List of personal or academic projects
 # Feel free to add more projects
@@ -67,9 +60,9 @@ highlighted_projects:
   - name: "Meeting room reservation system"
     #URL is optional
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Built a 3-tier application single handedly to manage and reserve meeting rooms using SOAP and JAVA webMethods. Created CRUD operations for users to create and handle booking as well as admins to manage booking rooms.
+    description: Built the backend system for a meeting room reservation system which used SOAP and Java Web Methods as the communication protocol. The backend was developed with a 3 tiered architecture and supported all necessary CRUD operations for users to book and manage reservations, and admins to manage rooms.
   - name: "E-Commerce website for kids wear"
-    description: Developed an e-commerce website using MERN stack in a team of 4. I have created Gift card, Customer profile and Contact us web pages in the website. I have also designed and developed the APIs and data model for the features.
+    description: Developed “Gift Card”, “Customer Profile”, and “Contact Us” pages for an eCommerce application using MERN stack architecture. Performed necessary API design and data model for the backend as well as integrations of “Customer Profile” with other pages.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -80,11 +73,11 @@ professional_experience:
     company: "Jarvis"
     duration: "2022-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Worked as a Software Developer in an agile/scrum environment, where I am able to learn and utilise my various skillsets to implement in projects like Linux Cluster Monitoring Agent"
+    description: "Worked as a Software Developer, implementing multiple projects using Java, SQL, bash scripts, and docker as well as ran scrum and participated in all agile ceremonies like a sprint retrospective, and planning."
   - title: "Software Engineer"
     company: "TPF Software India Pvt Ltd"
     duration: "2015-2018"
-    description: "Worked as a Software Engineer and performing various tasks in SDLC such as requirements gathering, component designing, software implementing, and testing solutions."
+    description: "Worked as a Software Engineer and performed various tasks in SDLC such as requirements gathering, component designing including REST APIs, data models, software implementation using Java, SQL, and testing implemented solutions using JUnit."
 #List of edcuation
 education: 
   - school_name: "Humber College"
@@ -107,3 +100,4 @@ others:
   - title: "Activities/Hobbies"
     bullets:
       - "Swimming"
+      - "Board Games"
