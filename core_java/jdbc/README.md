@@ -1,9 +1,9 @@
 # Introduction
 I have developed a Java application that uses JDBC API to perform CRUD operations on a PostgreSQL database. The database is hosted in the docker. The application was built and managed by Maven in Intellij IDE.  
 DBeaver client was used to generate the ER diagram.
-# Implementaiton
+# Implementation
 ## ER Diagram
-[!ER_diagram][./assets/ER_diagram.png]
+![ER_diagram](./assets/ER_diagram.png)
 ## Design Patterns
 The DAO design pattern allows us to write our own queries, so we can access multiple tables from each data access object by using the JOIN clause in the SQL statements. But, repository pattern works for one entity per repository.
 So, the repository pattern requires that the joining of tables should be in the application code. The DAO design pattern works for vertical scaling, while the repository pattern works better for horizontal scaling.
