@@ -1,0 +1,89 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Graduated with Honours",
+        "Dean's List (Fall 2020, Winter 2021, Fall 2021, Winter 2022)",
+        "Percentage: 90.1"
+      ],
+      "degree": "Ontario College Graduate Certificate",
+      "department": "Information Technology Solutions",
+      "duration": "2020-2022",
+      "school_name": "Humber College"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Bachelor of Engineering",
+      "department": "Electronics and Communication",
+      "duration": "2011-2015",
+      "school_name": "Visvesvaraya Technological University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_PriyadarshanaSarma",
+  "highlighted_projects": [
+    {
+      "description": "Built the backend system for a meeting room reservation system which used SOAP and Java Web Methods as the communication protocol. The backend was developed with a 3 tiered architecture and supported all necessary CRUD operations for users to book and manage reservations, and admins to manage rooms.",
+      "name": "Meeting room reservation system"
+    },
+    {
+      "description": "Developed “Gift Card”, “Customer Profile”, and “Contact Us” pages for an eCommerce application using MERN stack architecture. Performed necessary API design and data model for the backend as well as integrations of “Customer Profile” with other pages.",
+      "name": "E-Commerce website for kids wear"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Developed a Linux Cluster Monitoring Agent using bash scripts that will help to record the hardware specification and monitor the resource usage in a node. The data will be stored in a centralized PostgreSQL database provisioned using docker for monitoring and analysis by the Linux Cluster Administration team. The application was developed and tested on CentOS 7 virtual machine, running on a Google Cloud Platform.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    }
+  ],
+  "name": "Priyadarshana Sarma",
+  "others": [
+    {
+      "bullets": [
+        "Swimming",
+        "Board Games"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Worked as a Software Developer, implementing multiple projects using Java, SQL, bash scripts, and docker as well as ran scrum and participated in all agile ceremonies like a sprint retrospective, and planning.",
+      "duration": "2022-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "TPF Software India Pvt Ltd",
+      "description": "Worked as a Software Engineer and performed various tasks in SDLC such as requirements gathering, component designing including REST APIs, data models, software implementation using Java, SQL, and testing implemented solutions using JUnit.",
+      "duration": "2015-2018",
+      "title": "Software Engineer"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "React",
+      "HTML/CSS",
+      "JavaScript",
+      "NoSQL",
+      "Express"
+    ],
+    "familiar": [
+      "Spring Boot",
+      "Microservices",
+      "Android Development",
+      "REST API",
+      "Docker",
+      "Python"
+    ],
+    "proficient": [
+      "Java",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "I am a recent graduate from Humber College with a degree in Information Technology Solutions, concentrated in Java, REST APIs, and SQL. I have also worked as a Software Engineer at TPF Software India Pvt Ltd, performing various tasks in SDLC such as requirements gathering, component designing (APIs, data model), software implementation (Java and SQL), and testing implemented solutions. Currently, I am a Software Developer at Jarvis Consulting Group, where I have worked on multiple projects in Java, Linux, SQL, and Docker. Throughout my career history, I've worked in numerous fast-paced and collaborative groups, where to be successful, I always had to learn new things, and also always be dependable to build trust with various stakeholders. I like to follow a loop of improving my skills, being more effective, and contributing more value to my role. I look forward to continuing my journey as a Software Developer."
+}
