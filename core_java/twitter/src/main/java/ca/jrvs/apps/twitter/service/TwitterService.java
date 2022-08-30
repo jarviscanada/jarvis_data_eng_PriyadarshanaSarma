@@ -23,7 +23,7 @@ public class TwitterService implements Service {
   @Override
   public Tweet postTweet(Tweet tweet) {
 
-    //validate if tweet exceeds maximum allowed characters, id format is correct
+    //validate if tweet exceeds maximum allowed characters
     validatePostTweet(tweet);
 //
     //create tweet via dao
@@ -72,7 +72,7 @@ public class TwitterService implements Service {
     }
   }
 
-  // validate Id field
+  //validate Id field
   private void validateId(String id) {
 
     if (id.isEmpty()) {

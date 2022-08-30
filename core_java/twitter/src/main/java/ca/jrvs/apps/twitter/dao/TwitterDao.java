@@ -38,6 +38,12 @@ public class TwitterDao implements CrdDao<Tweet, String> {
     this.httpHelper = httpHelper;
   }
 
+  /**
+   * Create an entity(Tweet) to the underlying storage
+   *
+   * @param tweet tweet that to be created
+   * @return created entity
+   */
   @Override
   public Tweet create(Tweet tweet) {
 
@@ -60,25 +66,29 @@ public class TwitterDao implements CrdDao<Tweet, String> {
 
     StringBuilder uriString = new StringBuilder();
     PercentEscaper percentEscaper = new PercentEscaper("", false);
-    if (tweet.getCoordinates() != null) {
-      uriString.append(API_BASE_URI);
-      uriString.append(POST_PATH);
-      uriString.append(QUERY_SYM);
-      uriString.append("status");
-      uriString.append(EQUAL);
-      uriString.append(percentEscaper.escape(status));
-      uriString.append(AMPERSAND);
-      uriString.append("latitude");
-      uriString.append(EQUAL);
-      uriString.append(latitude);
-      uriString.append(AMPERSAND);
-      uriString.append("longitude");
-      uriString.append(EQUAL);
-      uriString.append(longitude);
-    }
+    uriString.append(API_BASE_URI);
+    uriString.append(POST_PATH);
+    uriString.append(QUERY_SYM);
+    uriString.append("status");
+    uriString.append(EQUAL);
+    uriString.append(percentEscaper.escape(status));
+    uriString.append(AMPERSAND);
+    uriString.append("latitude");
+    uriString.append(EQUAL);
+    uriString.append(latitude);
+    uriString.append(AMPERSAND);
+    uriString.append("longitude");
+    uriString.append(EQUAL);
+    uriString.append(longitude);
     return new URI(uriString.toString());
   }
 
+  /**
+   * Find an entity(Tweet) by its id
+   *
+   * @param id entity id
+   * @return Tweet entity
+   */
   @Override
   public Tweet findById(String id) {
 
@@ -104,6 +114,12 @@ public class TwitterDao implements CrdDao<Tweet, String> {
     return new URI(uriString.toString());
   }
 
+  /**
+   * Delete an entity(Tweet) by its ID
+   *
+   * @param id of the entity to be deleted
+   * @return deleted entity
+   */
   @Override
   public Tweet deleteById(String id) {
 
