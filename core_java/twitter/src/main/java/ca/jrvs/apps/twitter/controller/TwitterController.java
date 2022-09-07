@@ -7,6 +7,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 
+@org.springframework.stereotype.Controller
 /**
  * The controller layer interacts and parsers user input (CLI args in this APP). It also calls the
  * service layer and returns results.

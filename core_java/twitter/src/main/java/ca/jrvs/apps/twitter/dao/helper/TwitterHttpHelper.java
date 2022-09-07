@@ -12,11 +12,14 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.springframework.http.HttpMethod;
+import org.springframework.stereotype.Component;
 
 /**
  * TwitterHttpHelper is responsible for executing HTTP with a given URI. In addition, it authorizes
  * the HTTP requests using Twitter secrets.
  */
+
+@Component
 public class TwitterHttpHelper implements HttpHelper {
 
   private OAuthConsumer consumer;
@@ -28,6 +31,23 @@ public class TwitterHttpHelper implements HttpHelper {
     consumer.setTokenWithSecret(accessToken, tokenSecret);
 
     /** Default=single connection **/
+    httpClient = new DefaultHttpClient();
+  }
+
+  /**
+   * Default constructor
+   */
+  public TwitterHttpHelper() {
+    String consumerkey = System.getenv("CONSUMERKEY");
+    String consumerSecret = System.getenv("CONSUMERSECRET");
+    String accessToken = System.getenv("ACCESSTOKEN");
+    String tokenSecret = System.getenv("TOKENSECRET");
+
+    consumer = new CommonsHttpOAuthConsumer(consumerkey, consumerSecret);
+    consumer.setTokenWithSecret(accessToken, tokenSecret);
+    /**
+     * Default = single connection
+     */
     httpClient = new DefaultHttpClient();
   }
 
