@@ -1,6 +1,8 @@
 package ca.jrvs.apps.twitter.dao;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.ArgumentMatchers.isNotNull;
@@ -8,19 +10,17 @@ import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.when;
 
 import ca.jrvs.apps.twitter.dao.helper.HttpHelper;
-import ca.jrvs.apps.twitter.dao.helper.TwitterHttpHelper;
 import ca.jrvs.apps.twitter.dao.helper.util.TwitterUtil;
 import ca.jrvs.apps.twitter.example.JSONParser;
 import ca.jrvs.apps.twitter.model.Tweet;
-import com.fasterxml.jackson.core.JsonParser;
 import java.io.IOException;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
+
 
 @RunWith(MockitoJUnitRunner.class)
 public class TwitterDaoUnitTest {
@@ -53,7 +53,8 @@ public class TwitterDaoUnitTest {
   @Test
   public void create() {
     String hashtag = "#helloTwitter";
-    String text = "@Sarma_Priya1 Exploring Twitter API " + hashtag + " " + System.currentTimeMillis();
+    String text =
+        "@Sarma_Priya1 Exploring Twitter API " + hashtag + " " + System.currentTimeMillis();
     Double latitude = 30d;
     Double longitude = -30d;
 

@@ -9,6 +9,7 @@ import ca.jrvs.apps.twitter.model.Tweet;
 import org.junit.Before;
 import org.junit.Test;
 
+
 public class TwitterDaoIntTest {
 
   private TwitterDao twitterDao;
