@@ -7,19 +7,21 @@ import java.util.Properties;
 
 public class DatabaseConnectionManager {
 
-  private final String url;
-  private final Properties properties;
-
+  private static String url = null;
+  private static Properties properties = null;
+  private static Connection _connection;
   public DatabaseConnectionManager(String host, String databaseName, String userName,
       String password) {
-    this.url = "jdbc:postgresql://" + host + "/" + databaseName;
-    this.properties = new Properties();
+    url = "jdbc:postgresql://" + host + "/" + databaseName;
+    properties = new Properties();
     this.properties.setProperty("user", userName);
     this.properties.setProperty("password", password);
   }
 
-  public Connection getConnection() throws SQLException {
-    return DriverManager.getConnection(this.url, this.properties
-    );
+  public static Connection getConnection() throws SQLException {
+    if (_connection == null) {
+      _connection = DriverManager.getConnection(url, properties);
+    }
+    return _connection;
   }
 }
