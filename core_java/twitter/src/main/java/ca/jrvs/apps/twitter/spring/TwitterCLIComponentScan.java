@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 public class TwitterCLIComponentScan {
 
   public static void main(String[] args) {
-    ApplicationContext context = new AnnotationConfigApplicationContext(TwitterCLIBean.class);
+    ApplicationContext context = new AnnotationConfigApplicationContext(TwitterCLIComponentScan.class);
     TwitterCLIApp app = context.getBean(TwitterCLIApp.class);
     app.run(args);
   }
