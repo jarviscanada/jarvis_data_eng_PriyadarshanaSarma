@@ -34,7 +34,7 @@ Usage:
 
 # Design
 ## UML diagram
-![Twitter project UML diagram](./assets/Twitter_UMLdiagram.drawio)
+![Twitter project UML diagram](./assets/Twitter_UMLdiagram.png)
 ## App/main
 This component receives the user input and sends the arguments to the specific Controller methods based on the post/show/delete request. 
 ## Controller 
