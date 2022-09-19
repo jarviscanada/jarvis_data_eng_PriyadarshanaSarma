@@ -75,8 +75,8 @@ I have manually tested the application as well as used JUnit and Mockito for tes
 ## Deployment
 I have deployed the application using docker. Below are the steps taken for the deployment:
 ```
-1. Created the dockerfile.
-2. Created the uber jar using maven.
+1. Created the uber jar using maven. 
+2. Created the dockerfile.
 3. Built a new docker image locally
    docker build -t ${docker_user}/twitter.
 4. Verified the image created.
