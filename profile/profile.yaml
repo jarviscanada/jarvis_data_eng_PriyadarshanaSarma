@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_Priyadarsh
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I am a recent graduate from Humber College with a degree in Information Technology Solutions, concentrated in Java, REST APIs, and SQL. I have also worked as a Software Engineer at TPF Software India Pvt Ltd, performing various tasks in SDLC such as requirements gathering, component designing (APIs, data model), software implementation (Java and SQL), and testing implemented solutions. Currently, I am a Software Developer at Jarvis Consulting Group, where I have worked on multiple projects in Java, Linux, SQL, and Docker. Throughout my career history, I've worked in numerous fast-paced and collaborative groups, where to be successful, I always had to learn new things, and also always be dependable to build trust with various stakeholders. I like to follow a loop of improving my skills, being more effective, and contributing more value to my role. I look forward to continuing my journey as a Software Developer.
+summary: I am a recent graduate from Humber College with a degree in Information Technology Solutions, concentrated in Java, REST APIs, and SQL. I have also worked as a Software Engineer at TPF Software India Pvt Ltd, performing various tasks in SDLC such as requirements gathering, component designing (APIs, data model), software implementation (Java and SQL), and testing implemented solutions. Currently, I am a Software Developer at Jarvis Consulting Group, where I have worked on multiple projects in Java, SpringBoot, Linux, SQL, and Docker. Throughout my career history, I've worked in numerous fast-paced and collaborative groups, where to be successful, I always had to learn new things, and also always be dependable to build trust with various stakeholders. I like to follow a loop of improving my skills, being more effective, and contributing more value to my role. I look forward to continuing my journey as a Software Developer.
    
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -40,12 +40,12 @@ jarvis_projects:
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Developed a Linux Cluster Monitoring Agent using bash scripts that will help to record the hardware specification and monitor the resource usage in a node. The data will be stored in a centralized PostgreSQL database provisioned using docker for monitoring and analysis by the Linux Cluster Administration team. The application was developed and tested on CentOS 7 virtual machine, running on a Google Cloud Platform.
-  # - name: "Core Java Apps"
-  #  git_url: "/core_java"
-  #  description:
-  #    - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  #    - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  #    - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+  - name: "Core Java Apps"
+   git_url: "/core_java"
+   description:
+     - "Twitter App: Designed, implemented, tested, and deployed a command line Java application to create, show or delete tweets. The application used Twitter API to interact with Twitter with OAuth 1.0 authentication, SpringBoot for dependency injection, and JUnit and Mockito to test the application, and docker for deployments."
+     - "JDBC App: Developed a Java application that uses JDBC API to perform CRUD operations on a PostgreSQL database. The database is hosted in the docker. The application was built and managed by Maven in Intellij IDE. DBeaver client was used to generating the ER diagram."
+     - "Grep App: Developed a command line Java application to replicate grep functionalities for Windows admins, which takes in the input directory, text to find, and output file. Java stream APIs and Lambdas were used to traverse the root directory recursively to find the matched lines and print the result to the output file. Apache Maven was used for dependency management. Docker was used to deploying the application."
   # - name: "Springboot App"
   #  git_url: "/springboot"
   #  description: ""
